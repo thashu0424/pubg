@@ -13,6 +13,7 @@
         width: 100px;
     }
     p {
+        color: #ecf0f1;
         margin: 0;
         padding-top: 15px;
         padding-left: 25px;
@@ -50,7 +51,6 @@
 
 .navbar .navbar-nav .nav-item.active .nav-link,
 .navbar .navbar-nav .nav-item.show .nav-link {
-    color: #ecf0f1;
     background-color: #121212;
 }
 
@@ -58,6 +58,7 @@
 .navbar .navbar-nav .nav-item.active .nav-link:focus,
 .navbar .navbar-nav .nav-item.show .nav-link:hover,
 .navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #ecf0f1;
     color: #2069e0;
 }
 

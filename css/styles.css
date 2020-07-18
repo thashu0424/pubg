@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
 @font-face {
   font-family: "papu";
   src: url(../fonts/FARRAY.otf);
@@ -6,6 +7,11 @@
 @font-face {
   font-family: "papu1";
   src: url(../fonts/HalogenRoughbyPixelSurplus-Regular.otf);
+}
+
+@font-face {
+  font-family: "papu2";
+  src: url(../fonts/metallord.otf);
 }
 
 * {
@@ -21,7 +27,7 @@ html {
 
 html body {
   height: 100%;
-  background-color: #444444;
+  background-color: #121212;
   overflow-x: hidden;
 }
 
@@ -50,6 +56,7 @@ img {
 }
 
 .navbar .navbar-brand p {
+  color: #ecf0f1;
   margin: 0;
   padding-top: 15px;
   padding-left: 25px;
@@ -86,7 +93,6 @@ img {
 
 .navbar .navbar-nav .nav-item.active .nav-link,
 .navbar .navbar-nav .nav-item.show .nav-link {
-  color: #ecf0f1;
   background-color: #121212;
 }
 
@@ -94,6 +100,7 @@ img {
 .navbar .navbar-nav .nav-item.active .nav-link:focus,
 .navbar .navbar-nav .nav-item.show .nav-link:hover,
 .navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #ecf0f1;
   color: #2069e0;
 }
 
@@ -256,5 +263,64 @@ img {
 .child:focus {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+}
+
+.comingsoon {
+  color: #ecf0f1;
+  font-family: "papu1";
+  margin-top: 15vh;
+  font-weight: 100rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.comingsoon .number {
+  font-size: 3.5rem;
+  color: #ce2029;
+}
+
+.days {
+  font-size: 200px;
+  color: #db4844;
+}
+
+.hours {
+  font-size: 150px;
+  color: #f07c22;
+}
+
+.minutes {
+  font-size: 100px;
+  color: #f6da74;
+}
+
+.seconds {
+  font-size: 50px;
+  color: #abcd58;
+}
+
+#timer {
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+  font-family: 'Covered By Your Grace', cursive;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 10rem;
+}
+
+span {
+  display: block;
+  font-size: 20px;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */
