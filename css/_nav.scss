@@ -1,10 +1,17 @@
+.container {
+    min-width: 100%;
+}
+
 .navbar {
+    display: flex;
     background-color: #121212;
     font-family: $navfont;
     z-index: 2;
+    justify-content: space-evenly;
 }
 
 .navbar .navbar-brand {
+    padding-left: 30px;
     color: #ecf0f1;
     font-family: $logo;
     font-size: 40px;
@@ -93,11 +100,10 @@
         display: flex;
     }
     .navbarnavbar-toggler {
-        flex: 1;
         width: 20vw;
     }
     .navbar-toggler-icon {
-        width: 20vw;
+        width: 10vw;
     }
     .navbar .navbar-brand {
         color: #ecf0f1;
@@ -110,7 +116,6 @@
         p {
             margin: 0;
             padding-top: 2.5vh;
-            padding-left: 10vw;
         }
         flex: 1;
     }
