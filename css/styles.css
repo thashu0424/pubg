@@ -350,7 +350,7 @@ span {
           box-sizing: border-box;
 }
 
-.register > button {
+.register > .regi {
   position: relative;
   padding: 10px 20px;
   border: none;
@@ -369,14 +369,14 @@ span {
   overflow: hidden;
 }
 
-button:focus {
+.regi:focus {
   outline-color: transparent;
   -webkit-box-shadow: var(--btn-color) 2px 2px 22px;
           box-shadow: var(--btn-color) 2px 2px 22px;
 }
 
 .right::after,
-button::after {
+.regi::after {
   content: var(--content);
   display: block;
   position: absolute;
@@ -385,7 +385,7 @@ button::after {
   pointer-events: none;
 }
 
-button::after {
+.regi::after {
   font-weight: 200;
   top: -30px;
   left: -20px;
@@ -420,23 +420,23 @@ button::after {
           transform: translate(0, -90%) rotate(0deg);
 }
 
-button:hover .right::after {
+.regi:hover .right::after {
   -webkit-transform: translate(0, -47%) rotate(0deg);
           transform: translate(0, -47%) rotate(0deg);
 }
 
-button .right:hover::after {
+.regi .right:hover::after {
   -webkit-transform: translate(0, -50%) rotate(-7deg);
           transform: translate(0, -50%) rotate(-7deg);
 }
 
-button .left:hover ~ .right::after {
+.regi .left:hover ~ .right::after {
   -webkit-transform: translate(0, -50%) rotate(7deg);
           transform: translate(0, -50%) rotate(7deg);
 }
 
 /* bubbles */
-button::before {
+.regi::before {
   content: '';
   pointer-events: none;
   opacity: .6;
