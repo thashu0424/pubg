@@ -1,0 +1,17 @@
+.child {
+    margin: 0 auto;
+    min-height: 100vh;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+    background: url(../images/games-pubg-playerunknowns-battlegrounds-54922.jpg);
+    background-size: cover;
+    transition: all 1s;
+    background-position: center;
+    z-index: 0;
+}
+
+.child:hover,
+.child:focus {
+    transform: scale(1.05);
+}

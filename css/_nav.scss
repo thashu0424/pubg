@@ -1,6 +1,7 @@
 .navbar {
     background-color: #121212;
     font-family: $navfont;
+    z-index: 2;
 }
 
 .navbar .navbar-brand {
@@ -92,19 +93,23 @@
     }
     .navbarnavbar-toggler {
         flex: 1;
+        width: 20vw;
+    }
+    .navbar-toggler-icon {
+        width: 20vw;
     }
     .navbar .navbar-brand {
         color: #ecf0f1;
         font-family: $logo;
-        font-size: 8vw;
+        font-size: 6vw;
         img {
-            width: 15vw;
-            height: 20vw;
+            width: 18vw;
+            height: 10vh;
         }
         p {
             margin: 0;
-            padding-top: 15px;
-            padding-left: 25px;
+            padding-top: 2.5vh;
+            padding-left: 10vw;
         }
         flex: 1;
     }

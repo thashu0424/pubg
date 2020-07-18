@@ -8,9 +8,32 @@
   src: url(../fonts/HalogenRoughbyPixelSurplus-Regular.otf);
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+html body {
+  height: 100%;
+  background-color: #444444;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .navbar {
   background-color: #121212;
   font-family: "papu";
+  z-index: 2;
 }
 
 .navbar .navbar-brand {
@@ -110,23 +133,27 @@
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+    width: 20vw;
+  }
+  .navbar-toggler-icon {
+    width: 20vw;
   }
   .navbar .navbar-brand {
     color: #ecf0f1;
     font-family: "papu1";
-    font-size: 8vw;
+    font-size: 6vw;
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
   }
   .navbar .navbar-brand img {
-    width: 15vw;
-    height: 20vw;
+    width: 18vw;
+    height: 10vh;
   }
   .navbar .navbar-brand p {
     margin: 0;
-    padding-top: 15px;
-    padding-left: 25px;
+    padding-top: 2.5vh;
+    padding-left: 10vw;
   }
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
     color: #ecf0f1;
@@ -209,5 +236,25 @@
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
   color: #2069e0;
   background-color: #121212;
+}
+
+.child {
+  margin: 0 auto;
+  min-height: 100vh;
+  min-width: 100%;
+  width: 100%;
+  height: auto;
+  background: url(../images/games-pubg-playerunknowns-battlegrounds-54922.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-position: center;
+  z-index: 0;
+}
+
+.child:hover,
+.child:focus {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 /*# sourceMappingURL=styles.css.map */
