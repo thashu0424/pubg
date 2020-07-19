@@ -263,6 +263,8 @@ img {
   .child {
     background: url(../images/pubg-mobile-falcon-uhdpaper.com-4K-mobile-5.1735.jpg);
     background-size: cover;
+    background-position: center;
+    z-index: 0;
   }
 }
 
