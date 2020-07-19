@@ -10,3 +10,24 @@
         color: #ce2029;
     }
 }
+
+@media (max-width: 768px) {
+    .comingsoon {
+        font-size: 2rem;
+        .number {
+            font-size: 2.5rem;
+            color: #ce2029;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .comingsoon {
+        font-size: 1.5rem;
+        margin-top: 4vh;
+        .number {
+            font-size: 2rem;
+            color: #ce2029;
+        }
+    }
+}

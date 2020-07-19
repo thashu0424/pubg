@@ -43,3 +43,15 @@ span {
     font-size: 20px;
     color: white;
 }
+
+@media (max-width: 480px) {
+    .days,
+    .hours,
+    .minutes,
+    .seconds {
+        display: inline-block;
+        line-height: 1;
+        padding: 20px;
+        font-size: 4.5rem;
+    }
+}

@@ -15,3 +15,10 @@
 .child:focus {
     transform: scale(1.05);
 }
+
+@media (max-width: 480px) {
+    .child {
+        background: url(../images/pubg-mobile-falcon-uhdpaper.com-4K-mobile-5.1735.jpg);
+        background-size: cover;
+    }
+}

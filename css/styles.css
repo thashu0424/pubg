@@ -142,7 +142,7 @@ img {
   color: #2069e0;
 }
 
-@media (max-width: 574px) {
+@media (max-width: 480px) {
   .navbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -152,7 +152,7 @@ img {
     width: 20vw;
   }
   .navbar-toggler-icon {
-    width: 10vw;
+    width: 8vw;
   }
   .navbar .navbar-brand {
     color: #ecf0f1;
@@ -183,21 +183,7 @@ img {
   }
 }
 
-@media (max-width: 575px) {
-  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #ecf0f1;
-  }
-  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #2069e0;
-  }
-  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #2069e0;
-    background-color: #121212;
-  }
-}
-
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
     color: #ecf0f1;
   }
@@ -211,7 +197,7 @@ img {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
     color: #ecf0f1;
   }
@@ -225,7 +211,7 @@ img {
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
     color: #ecf0f1;
   }
@@ -273,6 +259,13 @@ img {
           transform: scale(1.05);
 }
 
+@media (max-width: 480px) {
+  .child {
+    background: url(../images/pubg-mobile-falcon-uhdpaper.com-4K-mobile-5.1735.jpg);
+    background-size: cover;
+  }
+}
+
 .comingsoon {
   color: #ecf0f1;
   font-family: "papu1";
@@ -285,6 +278,27 @@ img {
 .comingsoon .number {
   font-size: 3.5rem;
   color: #ce2029;
+}
+
+@media (max-width: 768px) {
+  .comingsoon {
+    font-size: 2rem;
+  }
+  .comingsoon .number {
+    font-size: 2.5rem;
+    color: #ce2029;
+  }
+}
+
+@media (max-width: 480px) {
+  .comingsoon {
+    font-size: 1.5rem;
+    margin-top: 4vh;
+  }
+  .comingsoon .number {
+    font-size: 2rem;
+    color: #ce2029;
+  }
 }
 
 .days {
@@ -330,6 +344,18 @@ span {
   display: block;
   font-size: 20px;
   color: white;
+}
+
+@media (max-width: 480px) {
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    display: inline-block;
+    line-height: 1;
+    padding: 20px;
+    font-size: 4.5rem;
+  }
 }
 
 .register {
@@ -469,6 +495,18 @@ span {
   to {
     -webkit-transform: translate(0, -66.666%);
             transform: translate(0, -66.666%);
+  }
+}
+
+@media (max-width: 1200px) {
+  .register > .regi {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .register > .regi {
+    font-size: 13px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
