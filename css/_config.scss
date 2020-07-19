@@ -13,6 +13,18 @@
     src: url(../fonts/metallord.otf);
 }
 
+@font-face {
+    font-family: "papu3";
+    src: url(../fonts/B612-Bold.ttf);
+}
+
+@font-face {
+    font-family: "papu4";
+    src: url(../fonts/B612-Regular.ttf);
+}
+
 $navfont:"papu";
 $logo:"papu1";
 $content:"papu2";
+$foot:"papu3";
+$foots:"papu4";
